@@ -96,24 +96,7 @@ const experience = [
     link2: 'https://www.tangedco.gov.in/',
     certificate: 'https://drive.google.com/file/d/1V8mbI67LRc6mE2qsPo_bCUT7nKqqdATC/view?usp=sharing',
   },
-  // {
-  //   id: 1,
-  //   img: '/experience/nsic.png',
-  //   title: 'NSIC',
-  //   subTitle: 'National Small Industries Corporation',
-  //   office: 'Embedded system & IoT trainee',
-  //   description:'✯Finished 1 week of training in Embedded system & IoT at NSIC, Chennai. \n\n✯Learned about the basics of Embedded system & IoT, and its applications in the real world. \n\n✯Done Basic circuit design and interfacing of sensors with microcontrollers.',
-  //   tags: [
-  //     { name: 'Word', icon: '/icons/word.png' },
-  //     { name: 'PowerPoint', icon: '/icons/powerpoint.png' },
-  //     { name: 'Raspberry Pi', icon: '/icons/Pi.png' },
-  //     { name: 'Python', icon: '/icons/python.png' },
-  //   ],
-  //   date: '23-Jan-23 to 30-Jan-23',
-  //   link: 'https://drive.google.com/file/d/1b7GSsGtZvycOhRV-JGZXC2gvwYH-9nKj/view?usp=sharing',
-  //   link2: 'https://www.nsic.co.in/',
-  //   certificate: 'https://drive.google.com/file/d/1xk5TXeFoiTtnW_H43f4KYQ5OmmXsUeoF/view?usp=sharing'
-  // },
+
 ];
 
 export default experience

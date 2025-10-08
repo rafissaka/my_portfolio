@@ -167,7 +167,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
       firstH1.remove();
     }
 
-    const title = firstH1 ? firstH1.textContent : "Saravanakumar's Blogs";
+    const title = firstH1 ? firstH1.textContent : "Raffat Issaka's Blogs";
 
     // Remove the specific parts of the code
     const specificPart1 = document.querySelector(

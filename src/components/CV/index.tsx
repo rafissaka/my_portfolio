@@ -19,11 +19,11 @@ export function CV() {
   return (
     <Container>
       <CVContainer>
-        <Title>
+        {/* <Title>
           <span>
             <FiDownload /> {currentLang === 'ta' ? 'பதிவிறக்க' : 'Download'}
           </span>
-        </Title>
+        </Title> */}
 
         <CVContent>
           <CVDescription>
@@ -32,9 +32,9 @@ export function CV() {
               {currentLang === 'ta' ? 'பதிவிறக்க பொத்தானைக் கிளிக் செய்வதன் மூலம் எனது தொழில்முறை சுயவிவரத்தை நீங்கள் பதிவிறக்கம் செய்யலாம்.' : 'Here you can download my professional resume by clicking on the download button.'}
             </p>
             <div className="profile">
-              <Image src="https://github.com/Saravanakumar2003.png" alt="Imagem de perfil" width={80} height={80} />
+              <Image src="/self.jpg" alt="Imagem de perfil" width={80} height={80} />
               <div className="name">
-                <h3>Saravanakumar R</h3>
+                <h3>Raffat Issaka</h3>
                 <span>{currentLang === 'ta' ? 'டெவலப்பர் | பேச்சாளர் | தன்னார்வலர்' : 'Developer | Speaker | Volunteer'}</span>
               </div>
             </div>
@@ -42,7 +42,7 @@ export function CV() {
           
           <Curriculum>
             <Image src="/cv.png" alt="Resume" width={300} height={400} />
-            <a href="/pdf/Saravanakumar_Resume.pdf" download>
+            <a href="/resume.pdf" download>
               <ButtonSecondAlt>
                 <b>{currentLang === 'ta' ? 'சுயவிவரத்தை பதிவிறக்கவும்' : 'Download CV'}</b> <FiDownload size={20}  />
               </ButtonSecondAlt>

@@ -26,6 +26,7 @@ const cardSkills = [
     img: '/icons/JS.png',
     color: '#fefe01'
   },
+  
   {
     id: 4,
     title: {
@@ -56,19 +57,19 @@ const cardSkills = [
   {
     id: 7,
     title: {
-      en: 'C',
-      ta: 'C',
+      en: 'Dart',
+      ta: 'டார்ட்',
     },
-    img: '/icons/C.png',
+    img: '/icons/dart.png',
     color: '#A8B9CC'
   },
   {
     id: 8,
     title: {
-      en: 'Flask',
-      ta: 'பிளாஸ்க்',
+      en: 'Flutter',
+      ta: 'பிளட்டர்',
     },
-    img: '/icons/flask.jpg',
+    img: '/icons/flutter.png',
     color: '#5a5151ff'
   },
   {
@@ -119,10 +120,10 @@ const cardSkills = [
   {
     id: 14,
     title: {
-      en: 'Canva',
-      ta: 'கான்வா',
+      en: 'Fastapi',
+      ta: 'பாஸ்ட்api',
     },
-    img: '/icons/Canva.png',
+    img: '/icons/Fastapi.png',
     color: '#00C4CC'
   },
   {
@@ -133,6 +134,125 @@ const cardSkills = [
     },
     img: '/icons/Figma.png',
     color: '#F24E1E'
+  },
+   {
+    id: 16,
+    title: {
+      en: 'Supabase',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/supabase.png',
+    color: '#005416ff'
+  }
+  ,
+   {
+    id: 17,
+    title: {
+      en: 'Prisma',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/p.png',
+    color: '#8062dfff'
+  }
+   ,
+   {
+    id: 18,
+    title: {
+      en: 'Next.js',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/next.png',
+    color: '#c7c0c0ff'
+  }
+  ,
+   {
+    id: 19,
+    title: {
+      en: 'Postgresql',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/post.png',
+    color: '#1008ecff'
+  }
+   ,
+   {
+    id: 20,
+    title: {
+      en: 'Expo',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/expo.png',
+    color: '#f9f9f9ff'
+  }
+   ,
+   {
+    id: 21,
+    title: {
+      en: 'React Native',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/react_native.png',
+    color: '#2206fcff'
+  }
+    ,
+   {
+    id: 22,
+    title: {
+      en: 'Tailwind CSS',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/tailwindcss.png',
+    color: '#000054c3'
+  }
+   ,
+   {
+    id: 23,
+    title: {
+      en: 'Paystack',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/paystack.png',
+    color: '#2f08e0ff'
+  }
+  ,
+   {
+    id: 24,
+    title: {
+      en: 'Payload CMS',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/payload.png',
+    color: '#0e0e0eff'
+  }
+   ,
+   {
+    id: 25,
+    title: {
+      en: 'Clerk Auth',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/clerk.png',
+    color: '#7d86cdff'
+  }
+    ,
+   {
+    id: 26,
+    title: {
+      en: 'Google Maps API',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/maps.png',
+    color: '#08b636ff'
+  }
+   ,
+   {
+    id: 27,
+    title: {
+      en: 'Twilio API',
+      ta: 'பிக்மா',
+    },
+    img: '/icons/twilio.png',
+    color: '#fb0b0bff'
   }
 ]
 

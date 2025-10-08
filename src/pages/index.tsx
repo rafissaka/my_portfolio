@@ -11,10 +11,10 @@ import { Section } from "../styles/styles";
 import { Work } from "../components/Volunteer";
 import { LoadingScreen } from "../components/Animations/LoadingScreen";
 import { Education } from "../components/Education";
-import { Achievements } from "../components/Achievements";
+
 import { Testimonials } from "../components/Testimonials";
 import { Publications } from "../components/Publications";
-import { Wakatime } from "../components/Coding/Wakatime";
+// import { Wakatime } from "../components/Coding/Wakatime";
 import { Certificates } from "../components/Certificates/index";
 import { Work_Experience } from "../components/Work/index";
 import { Jokes } from "../components/Misc/Joke";
@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <RouteTransition>
       <Head>
-        <title>{currentLang === 'ta' ? 'சரவணகுமாரின் போர்ட்ஃபோலியோ' : ' Saravanakumar\'s Portfolio'} </title>
+        <title>{currentLang === 'ta' ? 'சரவணகுமாரின் போர்ட்ஃபோலியோ' : ' Raffat Issaka\'s Portfolio'} </title>
       </Head>
       <ScrollTop />
       <Section>
@@ -65,33 +65,33 @@ export default function Home() {
         <FadeInAnimation>
           <Work_Experience/>
         </FadeInAnimation>
-        <FadeInAnimation>
+        {/* <FadeInAnimation>
           <Experience />
-        </FadeInAnimation>
-        <FadeInAnimation>
+        </FadeInAnimation> */}
+        {/* <FadeInAnimation>
           <Work />
-        </FadeInAnimation>
-        <FadeInAnimation>
+        </FadeInAnimation> */}
+        {/* <FadeInAnimation>
           <Achievements />
-        </FadeInAnimation>
+        </FadeInAnimation> */}
         <FadeInAnimation>
           <Publications />
         </FadeInAnimation>
-        <FadeInAnimation>
+        {/* <FadeInAnimation>
           <Certificates />
-        </FadeInAnimation>
+        </FadeInAnimation> */}
         <FadeInAnimation>
           <Projects />
         </FadeInAnimation>
-        <FadeInAnimation>
+        {/* <FadeInAnimation>
           <Wakatime />
-        </FadeInAnimation>
-        <FadeInAnimation>
+        </FadeInAnimation> */}
+        {/* <FadeInAnimation>
           <Testimonials />
-        </FadeInAnimation>
-        <FadeInAnimation>
+        </FadeInAnimation> */}
+        {/* <FadeInAnimation>
           <Jokes />
-        </FadeInAnimation>
+        </FadeInAnimation> */}
         <FadeInAnimation>
           <CardContact />
         </FadeInAnimation>

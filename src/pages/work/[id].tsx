@@ -33,7 +33,7 @@ export default function Projeto({ work }: WorkProps) {
 
   return <>
     <Head>
-      <title>{title} | Saravanakumar </title>
+      <title>{title} | Raffat Issaka </title>
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />

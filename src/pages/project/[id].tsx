@@ -19,7 +19,7 @@ interface ProjectProps {
 export default function Projeto({ project }: ProjectProps) {
   return <>
     <Head>
-      <title>{project.title} | Saravanakumar </title>
+      <title>{project.title} | Raffat Issaka </title>
       <meta name="description" content={project.description} />
       <meta property="og:title" content={project.title} />
       <meta property="og:description" content={project.description} />
@@ -176,8 +176,7 @@ export default function Projeto({ project }: ProjectProps) {
             src={project.trelloboard}
             width="100%"
             height="600"
-            placeholder='Trello Board'
-            frameBorder="100"
+            frameBorder="0"
             title="Trello Board"
           ></iframe>
         </div>
@@ -225,7 +224,7 @@ export default function Projeto({ project }: ProjectProps) {
 
       <S.DescriptionProject>
       <Title>
-          Contributers
+          Contributors
           <span>
             <UsersThree /> Project
           </span>
@@ -298,26 +297,26 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
   const project = projects.map(project => ({
     id: project.id,
     link: project.url,
-    imgUrl: project.img,
+    imgUrl: (project as any).img || project.banner,
     banner: project.banner,
-    icon: project.icon,
+    icon: (project as any).icon || '/Logo1.png',
     title: project.title,
     type: project.type,
-    github: project.github,
-    web: project.web,
+    github: (project as any).github || '#',
+    web: (project as any).web || '#',
     description: project.description,
     tags: project.tags,
-    print: project.print,
-    gif: project.gif,
+    print: (project as any).print || [],
+    gif: (project as any).gif || '',
     year: project.year,
     status: project.status,
-    video: project.video,
+    video: (project as any).video || '',
     tech: project.tech,
-    backgroundImage: project.backgroundImage,
-    blog: project.blog,
-    trelloboard: project.trelloboard,
-    trelloedit: project.trelloedit,
-    team: project.team
+    backgroundImage: (project as any).backgroundImage || project.banner,
+    blog: (project as any).blog || '#',
+    trelloboard: (project as any).trelloboard || '',
+    trelloedit: (project as any).trelloedit || '',
+    team: (project as any).team || []
   }))
 
   const idProject = project.find(project => project.link === params.id)

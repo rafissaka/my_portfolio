@@ -41,8 +41,8 @@ export function Contact() {
             <h4>
               <LinkedinLogo size={22} color="#00fffb" /> Linkedin{' '}
             </h4>
-            <Link href="https://www.linkedin.com/in/saravanaramaswamy2003/" target="_blank">
-              <span>saravanaramaswamy2003</span>
+            <Link href="https://www.linkedin.com/in/raffat-issaka-17019b/" target="_blank">
+              <span>raffat-issaka-17019b</span>
             </Link>
           </div>
 
@@ -51,19 +51,19 @@ export function Contact() {
               {' '}
               <TelegramLogo size={22} color="#00fffb" /> Email{' '}
             </h4>
-            <Link href="mailto:saravanaramaswamy2003@gmail.com" target="_blank">
-              <span>saravanaramaswamy2003@gmail.com</span>
+            <Link href="rhissaka@gmail.com" target="_blank">
+              <span>rhissaka@gmail.com</span>
             </Link>
           </div>
         </ContactContent>
         <Form />
-        <Title style={{ textAlign: "center" }}>
+        {/* <Title style={{ textAlign: "center" }}>
           {currentLang === 'ta' ? 'ஒரு சந்திப்பை திட்டமிடுங்கள்' : 'Schedule a Meeting'}
         </Title>
         <Description style={{ textAlign: "center", marginTop: "3px" }}>
           {currentLang === 'ta' ? 'இது Calendy மூலம் இயக்கப்படுகிறது. எனவே, ஏற்றுவதற்கு சில நேரம் ஆகலாம். (குறிப்பு: சந்திப்பை திட்டமிட நீங்கள் Calendy குக்கீகளை ஏற்க வேண்டும்)' : 'This is powered by Calendy. Hence, it may take some time for loading. (Note: You have to accept the cookies by Calendy in order to Schedule a meet)'}
-        </Description>
-        <ResponsiveIframeContainer>
+        </Description> */}
+        {/* <ResponsiveIframeContainer>
           <iframe
             src={calendy}
             width="100%"
@@ -71,11 +71,11 @@ export function Contact() {
             frameBorder="0"
             title="Calendly"
           ></iframe>
-        </ResponsiveIframeContainer>
-        <Title style={{ textAlign: "center" }}>
+        </ResponsiveIframeContainer> */}
+        {/* <Title style={{ textAlign: "center" }}>
           {currentLang === 'ta' ? 'எனது நாட்காட்டியைக் காண்க' : 'See my Calendar'}
-        </Title>
-        <ResponsiveIframeContainer>
+        </Title> */}
+        {/* <ResponsiveIframeContainer>
         <iframe
           src={calender}
           style={{ border: 0 }}
@@ -85,7 +85,7 @@ export function Contact() {
           scrolling="no"
           title="Google Calendar"
         ></iframe>
-        </ResponsiveIframeContainer>
+        </ResponsiveIframeContainer> */}
       </ContainerContact>
     </Section>
   );
