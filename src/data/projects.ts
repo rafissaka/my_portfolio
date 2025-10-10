@@ -18,9 +18,9 @@ const projects: any[] = [
   // 2️⃣ School Management System
   {
     id: 2,
-    url: "school-management",
+    url: "https://school-management-lime-nine.vercel.app",
     banner:
-      "https://images.unsplash.com/photo-1588075592446-265fd1e6e76d?auto=format&fit=crop&w=1200&q=80",
+      "/ss",
     title: "School Management System",
     type: "Web Platform",
     description:
