@@ -1,23 +1,23 @@
 const projects: any[] = [
-  // 1️⃣ DoorHub
-  {
-    id: 1,
-    url: "doorhub",
-    banner:
-      "/Logo.png",
-    title: "DoorHub",
-    type: "Mobile App",
-    description:
-      "A Flutter-based mobile app connecting users with nearby handymen. Includes authentication, real-time chat, and booking using Google Maps.",
-    tags: [{ name: "Client Project" }],
-    tech: [{ name: "Flutter" }, { name: "Firebase" }, { name: "Google Maps API" }],
-    status: "Completed",
-    year: "2022",
-  },
+  // // 1️⃣ DoorHub
+  // {
+  //   id: 1,
+  //   url: "doorhub",
+  //   banner:
+  //     "/Logo.png",
+  //   title: "DoorHub",
+  //   type: "Mobile App",
+  //   description:
+  //     "A Flutter-based mobile app connecting users with nearby handymen. Includes authentication, real-time chat, and booking using Google Maps.",
+  //   tags: [{ name: "Client Project" }],
+  //   tech: [{ name: "Flutter" }, { name: "Firebase" }, { name: "Google Maps API" }],
+  //   status: "Completed",
+  //   year: "2022",
+  // },
 
   // 2️⃣ School Management System
   {
-    id: 2,
+    id: 1,
     url: "https://school-management-lime-nine.vercel.app",
     banner:
       "/ss.png",
@@ -33,7 +33,7 @@ const projects: any[] = [
 
   // 3️⃣ eLearning Platform
   {
-    id: 3,
+    id: 2,
     url: "https://regular-academy-web2.vercel.app/",
     banner:
       "/ee.png",
@@ -47,42 +47,9 @@ const projects: any[] = [
     year: "2024",
   },
 
-  // 4️⃣ Payroll System
   {
-    id: 4,
-    url: "payroll-system",
-    banner:
-      "https://images.unsplash.com/photo-1620812098433-67c7d1a3ad89?auto=format&fit=crop&w=1200&q=80",
-    title: "Payroll Management System",
-    type: "Mobile App",
-    description:
-      "Payroll app for automating salary computation, deductions, and payslip generation. Includes secure authentication and reporting tools.",
-    tags: [{ name: "Finance" }],
-    tech: [{ name: "Flutter" }, { name: "Supabase" },],
-    status: "Completed",
-    year: "2024",
-  },
-
-  // 5️⃣ Rent It GH
-  {
-    id: 5,
-    url: "rentitgh",
-    banner:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-    title: "Rent It GH",
-    type: "Cross-Platform App",
-    description:
-      "A Ghana-based rental platform where users can post and rent items within 5 miles. Features escrow payments, location filters, and in-app chat.",
-    tags: [{ name: "Marketplace" }],
-    tech: [{ name: "Next.js" }, { name: "Supabase" }, { name: "Google Maps API" }, { name: "Flutter" }],
-    status: "Prototype",
-    year: "2025",
-  },
-
-  // 6️⃣ Regular Academy Admin Dashboard
-  {
-    id: 6,
-    url: "academy-dashboard",
+    id: 3,
+    url: "https://regular-academy-web2.vercel.app/",
     banner:
       "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
     title: "Regular Academy Admin Dashboard",
@@ -95,76 +62,28 @@ const projects: any[] = [
     year: "2024",
   },
 
-  // 7️⃣ Microfinance (Susu & Loan Manager)
   {
-    id: 7,
-    url: "susu-loan-manager",
+    id: 4,
+    url: "https://pmovingservices.com/",
     banner:
-      "https://images.unsplash.com/photo-1605902711622-cfb43c4437e6?auto=format&fit=crop&w=1200&q=80",
-    title: "Susu & Loan Manager",
-    type: "SaaS App",
-    description:
-      "A microfinance system that helps Susu collectors and credit unions manage member savings, loans, and repayments with automated SMS reminders.",
-    tags: [{ name: "Fintech" }],
-    tech: [{ name: "Next.js" }, { name: "PostgreSQL" }, { name: "Twilio API" }],
-    status: "In Development",
-    year: "2025",
-  },
-
-  // 8️⃣ AI Student Analytics
-  {
-    id: 8,
-    url: "ai-student-analytics",
-    banner:
-      "https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1200&q=80",
-    title: "AI Student Analytics Engine",
-    type: "AI System",
-    description:
-      "AI model predicting academic performance and recommending personalized study plans using TensorFlow and real-time data visualization.",
-    tags: [{ name: "Artificial Intelligence" }],
-    tech: [{ name: "Python" }, { name: "TensorFlow" }, { name: "Next.js" }],
-    status: "Research",
-    year: "2025",
-  },
-
-  // 9️⃣ Moving Company Website
-  {
-    id: 9,
-    url: "https://pmoving-services.vercel.app/",
-    banner:
-      "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=1200&q=80",
-    title: "City Movers Ghana",
+      "/p.png",
+    title: "City Movers ",
     type: "Website",
     description:
-      "Corporate website for a Ghanaian moving company providing residential and commercial relocation services. Built with Payload CMS.",
+      "Corporate website for a American moving company providing residential and commercial relocation services. Built with Payload CMS.",
     tags: [{ name: "Corporate" }],
     tech: [{ name: "Next.js" }, { name: "Payload CMS" }, { name: "PostgreSQL" }],
     status: "Completed",
     year: "2024",
   },
 
-  // 🔟 AfriMart Marketplace
-  {
-    id: 10,
-    url: "afrimart-marketplace",
-    banner:
-      "https://images.unsplash.com/photo-1515165562835-c3b8b67d2f12?auto=format&fit=crop&w=1200&q=80",
-    title: "AfriMart Marketplace",
-    type: "Web Platform",
-    description:
-      "Country-based marketplace for goods, housing, vehicles, and services with tiered seller subscriptions and mobile money payment integration.",
-    tags: [{ name: "E-Commerce" }],
-    tech: [{ name: "Next.js" }, { name: "Prisma" }, { name: "Supabase" }, { name: "Paystack" }],
-    status: "In Progress",
-    year: "2025",
-  },
 
   // 11️⃣ Flutter Language Translator App
   {
-    id: 11,
+    id: 5,
     url: "https://github.com/rafissaka/translator-app",
     banner:
-      "/mana.png",
+      "/trans.jpg",
     title: "Language Translator App",
     type: "Mobile App",
     description:
@@ -177,12 +96,12 @@ const projects: any[] = [
 
   // 12️⃣ Construction Sales App
   {
-    id: 12,
-    url: "construction-sales",
+    id: 6,
+    url: "/",
     banner:
-      "https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80",
+      "/fox.jpg",
     title: "Construction Sales & Supply System",
-    type: "Mobile + Web",
+    type: "Mobile",
     description:
       "A two-part system — a Flutter app for construction suppliers and an admin web app for tracking sales, orders, and inventory.",
     tags: [{ name: "Logistics" }],
@@ -193,10 +112,10 @@ const projects: any[] = [
 
   // 13️⃣ Admin Website for Construction App
   {
-    id: 13,
-    url: "construction-admin",
+    id: 7,
+    url: "https://foxrand-adminv2.vercel.app/dashboard",
     banner:
-      "https://images.unsplash.com/photo-1590420485286-891fa83a3b37?auto=format&fit=crop&w=1200&q=80",
+      "/admin.png",
     title: "Construction Admin Dashboard",
     type: "Admin Website",
     description:
@@ -209,7 +128,7 @@ const projects: any[] = [
 
   // 14️⃣ E-Commerce Website
   {
-    id: 14,
+    id: 8,
     url: "https://www.zipohub.com/",
     banner:
       "/ecommerce.png",
@@ -225,10 +144,10 @@ const projects: any[] = [
 
   // 15️⃣ E-Commerce Mobile App + Agent App
   {
-    id: 15,
-    url: "ecommerce-mobile",
+    id: 9,
+    url: "/",
     banner:
-      "https://images.unsplash.com/photo-1556741533-f6acd647c6a6?auto=format&fit=crop&w=1200&q=80",
+      "/a.png",
     title: "E-Commerce Mobile & Agent App",
     type: "Mobile App",
     description:
@@ -241,7 +160,7 @@ const projects: any[] = [
 
   // 16️⃣ eLibrary Platform
   {
-    id: 16,
+    id: 10,
     url: "https://elibrary-rosy.vercel.app/",
     banner:
       "/elibrary.png",
