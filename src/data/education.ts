@@ -8,7 +8,7 @@ const education = [
       ta: 'வேலம்மல் பொறியியல் கல்லூரி',
     },
     subTitle: {
-      en: 'Bachelor of Science (Hons.)',
+      en: 'Bachelor of Science (BSc.)',
       ta: 'பொறியியல் பட்டம் (மாண்புகள்)',
     },
     office: {

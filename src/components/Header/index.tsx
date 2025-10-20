@@ -92,19 +92,19 @@ export function Header() {
         </ul>
         <Icons>
           <Link
-            href={'https://github.com/Saravanakumar2003'}
+            href={'https://github.com/rafissaka'}
             target="_blank"
             aria-label="Link to Github">
             <FiGithub />
           </Link>
           <Link
-            href={'https://www.linkedin.com/in/saravanaramaswamy2003/'}
+            href={'https://www.linkedin.com/in/raffat-issaka-17019b/'}
             target="_blank"
             aria-label="Link to Linkedin">
             <FiLinkedin />
           </Link>
           <Link
-            href={'https://www.instagram.com/saravanakumar.me?utm_source=qr'}
+            href={'https://x.com/@issa35291'}
             target="_blank"
             aria-label="Instagram">
             <FiInstagram />
