@@ -255,7 +255,7 @@ export default function TermsAndConditions() {
         <p>{content.section11.content[currentLang]}</p>
 
         <p><strong>{content.section11.name[currentLang]}</strong><br />
-          {content.section11.website[currentLang]}<a href="https://my-portfolio-ivory-two-29.vercel.app/">raffat.vercel.app</a>
+          {content.section11.website[currentLang]}<a href="https://my-portfolio-ivory-two-29.vercel.app/">https://my-portfolio-ivory-two-29.vercel.app</a>
         </p>
       </TermsAndConditionsContainer>
       <ScrollTop />
